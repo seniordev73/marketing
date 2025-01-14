@@ -11,7 +11,7 @@ export const Advertiser = (props) => {
             Whether our client's scope is international or local, we can deliver high-value prospects that fit the strictest industry-specific criteria. Those capabilities come from over a decade of building up and carefully vetting our supply-side partner base, implementing new brand safety and fraud prevention measures to keep up with evolving exploits, and developing in-house tools with functionality previously unavailable on the market.
           </p>
         </div>
-        <div className="row">
+        <div className="">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">

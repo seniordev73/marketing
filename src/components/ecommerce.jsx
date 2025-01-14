@@ -18,7 +18,7 @@ export const Ecommerce = () => {
           </p>
         </div>
         {/* Features List */}
-        <div className="row features-list">
+        <div className=" features-list">
           {/* First Column */}
           <div className="col-lg-6 col-md-6 col-sm-12">
             <ul>

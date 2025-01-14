@@ -8,7 +8,7 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>We make decisions based on data</h2>
         </div>
-        <div className="row">
+        <div className="">
           <div className="portfolio-items">
             {props.data
               ? props.data.map((d, i) => (
